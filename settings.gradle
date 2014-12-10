@@ -1,0 +1,4 @@
+rootProject.name = 'GradleDesktop'
+
+include 'test-app', 'jdeeco-udp-broadcast'
+

@@ -1,0 +1,9 @@
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = 'MainApp'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':jdeeco-udp-broadcast')
+}
