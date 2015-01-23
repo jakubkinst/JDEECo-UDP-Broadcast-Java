@@ -69,7 +69,7 @@ public class MainApp extends Application {
         mDEECoRuntime = builder.build(mUdpBroadcast.getMyIpAddress(), model, mUdpBroadcast);
         mDEECoRuntime.start();
 
-        new Thread(() -> mUdpBroadcast.startReceiving()).start();
+        mUdpBroadcast.startReceivingInBackground();
     }
 
 

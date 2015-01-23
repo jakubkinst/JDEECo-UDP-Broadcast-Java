@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JDEECo-UDP-Broadcast.iml" filepath="$PROJECT_DIR$/JDEECo-UDP-Broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDEECo-UDP-Broadcast-Java.iml" filepath="$PROJECT_DIR$/JDEECo-UDP-Broadcast-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdeeco-udp-broadcast/jdeeco-udp-broadcast.iml" filepath="$PROJECT_DIR$/jdeeco-udp-broadcast/jdeeco-udp-broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-app/test-app.iml" filepath="$PROJECT_DIR$/test-app/test-app.iml" />

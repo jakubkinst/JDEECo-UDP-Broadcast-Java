@@ -68,6 +68,10 @@ public abstract class UDPBroadcast {
         }
     }
 
+    public abstract void startReceivingInBackground();
+
+    public abstract void stopReceivingInBackground();
+
     protected abstract InetAddress getBroadcastAddress();
 
 
